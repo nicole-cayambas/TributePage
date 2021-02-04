@@ -154,12 +154,16 @@ html {
   #img-div {
     flex-direction: column;
   }
-  #image {
-    position: relative;
+  #caption-card {
+    width: 100%;
   }
 }
 @media (max-width: 940px) {
   #timeline {
     padding: 2rem 5rem;
+  }
+  #image {
+    position: relative;
+  }
   }
 }
