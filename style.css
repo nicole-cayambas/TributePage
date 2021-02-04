@@ -149,13 +149,10 @@ html {
 }
 @media (max-width: 1300px) {
   #caption-card {
-    width: 100%;
+    width: 50%;
   }
-  #img-div {
-    flex-direction: column;
-  }
-  #caption-card {
-    max-width: 100%;
+  #bold {
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 940px) {
@@ -164,6 +161,9 @@ html {
   }
   #image {
     position: relative;
+    max-width: 100%;
   }
+  #caption-card {
+    width: 100%;
   }
 }
