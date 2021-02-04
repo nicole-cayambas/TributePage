@@ -155,7 +155,7 @@ html {
     flex-direction: column;
   }
   #caption-card {
-    width: 100%;
+    max-width: 100%;
   }
 }
 @media (max-width: 940px) {
